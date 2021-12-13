@@ -1,0 +1,9 @@
+---
+applications:
+  - name: test-go-buildpack
+    memory: 128M
+    instances: 1
+    buildpack: go_buildpack
+    cmd: main
+    env:
+      GOPACKAGENAME: main
