@@ -1,7 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"time"
+)
 
 func main() {
-	fmt.Println("Hello world, go-buildpack")
+	for {
+		fmt.Println("Hello world, go-buildpack")
+		time.Sleep(600 * time.Second)
+	}
 }
